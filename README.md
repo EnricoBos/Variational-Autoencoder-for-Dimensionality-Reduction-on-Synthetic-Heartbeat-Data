@@ -79,8 +79,15 @@ The project demonstrates that PCA provides a better separation of the normal and
 
 
   
-- Principal Components 
+- Principal Components
+
+![kmeans_pca_tsne_clusters](https://github.com/user-attachments/assets/d591d164-1a50-41ad-a4f8-0adb39eb1e45)
+
+  
 - Confusion Matrix
+
+  ![cm_pca_tsne_clusters](https://github.com/user-attachments/assets/e44366df-777d-43ae-8171-1586d3c91cd2)
+
 
 
 ## Authors
