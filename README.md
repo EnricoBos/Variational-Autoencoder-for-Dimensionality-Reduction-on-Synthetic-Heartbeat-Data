@@ -39,10 +39,10 @@ The VAE is trained to learn a compressed latent representation of the data. The 
 
 ## Implementation
 Implemented VAE model including:
-	-  1D Convolutional VAE: Implements a VAE using 1D convolutional layers to encode and decode synthetic heartbeat signals.**
-	-  Synthetic Data Generation: Generates normal and abnormal heartbeat data with noise to simulate real-world scenarios**
-	-  Dimensionality Reduction: Compares the latent space representation using PCA and t-SNE**
-	-  Evaluation: Visualizes and evaluates the separation of normal and abnormal heartbeat data in the reduced space**
+-  1D Convolutional VAE: Implements a VAE using 1D convolutional layers to encode and decode synthetic heartbeat signals
+-  Synthetic Data Generation: Generates normal and abnormal heartbeat data with noise to simulate real-world scenarios
+-  Dimensionality Reduction: Compares the latent space representation using PCA and t-SNE
+-  Evaluation: Visualizes and evaluates the separation of normal and abnormal heartbeat data in the reduced space
 
 
 ## Environment
