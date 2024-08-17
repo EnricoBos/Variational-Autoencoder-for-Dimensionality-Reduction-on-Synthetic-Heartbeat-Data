@@ -31,8 +31,8 @@ A Variational Autoencoder (VAE) offers several advantages over a traditional Aut
 ## About the Project
 The project implements a 1D Convolutional Variational Autoencoder (VAE) to investigate dimensionality reduction techniques.
 Synthetic data is generated, using: 
-	- ** Normal Heartbeat: A smooth sine wave with slight random noise.
-	- ** Abnormal Heartbeat: A more irregular waveform, combining a base sine wave with increased noise and additional higher-frequency oscillations.
+	- Normal Heartbeat: A smooth sine wave with slight random noise.
+	- Abnormal Heartbeat: A more irregular waveform, combining a base sine wave with increased noise and additional higher-frequency oscillations.
 
 The VAE is trained to learn a compressed latent representation of the data. The learned latent space is then compared using PCA and t-SNE for dimensionality reduction. The results show that PCA achieves better separation of data in the latent space compared to t-SNE, with the confusion matrices at the end being nearly identical.
 
