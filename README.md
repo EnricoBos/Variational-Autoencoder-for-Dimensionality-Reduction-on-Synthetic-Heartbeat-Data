@@ -8,7 +8,7 @@ A Variational Autoencoder (VAE) offers several advantages over a traditional Aut
  -  Latent Space Representation: 
 	 - Traditional AE: 
 		Maps input data to a fixed latent space. The latent variables are direct encodings of the data, and there are no constraints on their distribution. This can result in a latent space 	that may be 	irregular or sparse, 		making it harder to explore and interpret.
-	VAE: 
+	- VAE: 
 	Maps input data to a distribution in the latent space (usually Gaussian). Instead of producing a single point for each input, it produces a distribution characterized by a mean and variance. This 	probabilistic approach creates a more continuous and structured latent space, which can be smoother and more interpretable.
 
 -  Regularization:
