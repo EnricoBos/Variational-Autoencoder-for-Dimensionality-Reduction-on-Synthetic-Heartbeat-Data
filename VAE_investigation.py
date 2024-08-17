@@ -153,7 +153,7 @@ if __name__ == "__main__":
     
     # Rescale data
     x_data_rescaled = rescale_data(x_data, min_val, max_val)
-    path_to_my_weights = 'C:/Users/Enrico/Desktop/Progetti/23 VARIATIONAL AUTOENCODER/VAE_weights.h5'
+    path_to_my_weights = 'VAE_weights.h5' # Specify the path to your model weights file
     if not os.path.exists(path_to_my_weights):
         print('Starting Training..')
         # Shuffle the data
