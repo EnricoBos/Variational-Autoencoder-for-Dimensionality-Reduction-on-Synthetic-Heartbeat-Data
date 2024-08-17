@@ -12,20 +12,20 @@ A Variational Autoencoder (VAE) offers several advantages over a traditional Aut
 	Maps input data to a distribution in the latent space (usually Gaussian). Instead of producing a single point for each input, it produces a distribution characterized by a mean and variance. This 	probabilistic approach creates a more continuous and structured latent space, which can be smoother and more interpretable.
 
 -  Regularization:
-- Traditional AE: 
+	- Traditional AE: 
 	Does not include explicit regularization on the latent space. The lack of constraints can lead to overfitting and a latent space that may not generalize well to unseen data or produce meaningful 	interpolations.
-- VAE: 	Incorporates a regularization term (KL divergence) that forces the latent space distributions to approximate a standard Gaussian. This regularization ensures that the latent space is well-structured 	and smooth, which helps in generating new samples and understanding the data distribution better.
+	- VAE: 	Incorporates a regularization term (KL divergence) that forces the latent space distributions to approximate a standard Gaussian. This regularization ensures that the latent space is well-structured 	and smooth, which helps in generating new samples and understanding the data distribution better.
 
 -  Data Generation:
-- Traditional AE: 
+	- Traditional AE: 
 	Primarily focuses on reconstruction and does not inherently support data generation. The latent space does not guarantee that new samples will be realistic or consistent with the original data.
-- VAE: 
+	- VAE: 
 	Specifically designed to generate new data samples by sampling from the latent space distributions. This capability allows for exploring the data space more effectively and creating new instances that 	adhere to the learned distribution.
 
 -  Latent Space Analysis:
-- Traditional AE: 
+	- Traditional AE: 
 	The latent space may be difficult to navigate and analyze due to its potential irregularity. Understanding how variations in the latent space affect the data can be challenging.
-- VAE: 	The continuous and probabilistic nature of the latent space makes it easier to analyze. The structured latent space allows for smoother interpolation and exploration of how different latent variables 	influence the data.
+	- VAE: 	The continuous and probabilistic nature of the latent space makes it easier to analyze. The structured latent space allows for smoother interpolation and exploration of how different latent variables 	influence the data.
 
 
 ## About the Project
