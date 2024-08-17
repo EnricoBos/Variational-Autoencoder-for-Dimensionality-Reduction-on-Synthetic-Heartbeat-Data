@@ -68,10 +68,10 @@ The main functionality of this project is contained within main.py. Here is a br
 The project demonstrates that PCA provides a better separation of the normal and abnormal synthetic heartbeat data in the reduced space compared to t-SNE. The confusion matrix indicates that both methods perform similarly in terms of classification accuracy.
 
 - Example of synthetic data
-  - Normal
+	- Normal
 ![figure_0](https://github.com/user-attachments/assets/4aaeba60-1e96-4f47-9467-91bd9e8d375e)
 
-- Abnormal
+	- Abnormal
 ![figure_1](https://github.com/user-attachments/assets/0ab53b89-1e6c-44e8-bc59-004a4004aa93)
 
   
