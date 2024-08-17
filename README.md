@@ -51,21 +51,21 @@ Implemented VAE model including:
 
 
 ## Executing program
-* The main functionality of this project is contained within main.py. Here is a breakdown of the key step
-	- ** Initialize the VAE: vae = Conv1DVAE(input_dim=128, latent_dim=100, conv_filters=[32, 64, 128])
-	- ** Generate and Preprocess Synthetic Data
-	- ** Train the VAE: vae.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=0.001))
-			    vae.fit(x_data_rescaled, x_data_rescaled, epochs=15, batch_size=128, validation_split=0.2)
+The main functionality of this project is contained within main.py. Here is a breakdown of the key step
+- Initialize the VAE: vae = Conv1DVAE(input_dim=128, latent_dim=100, conv_filters=[32, 64, 128])
+- Generate and Preprocess Synthetic Data
+- Train the VAE: vae.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=0.001))
+		    vae.fit(x_data_rescaled, x_data_rescaled, epochs=15, batch_size=128, validation_split=0.2)
 
-	- ** Dimensionality Reduction: z_mean = vae.encode(x_data_rescaled)
-				       pca_result = PCA(n_components=2).fit_transform(z_mean)
-				       tsne_result = TSNE(n_components=2).fit_transform(z_mean)
+- Dimensionality Reduction: z_mean = vae.encode(x_data_rescaled)
+			       pca_result = PCA(n_components=2).fit_transform(z_mean)
+			       tsne_result = TSNE(n_components=2).fit_transform(z_mean)
 
-	- ** Evaluate and Visualize: The project includes visualization of the reduced data space and confusion matrices.
+- Evaluate and Visualize: The project includes visualization of the reduced data space and confusion matrices.
 
 
 ## Results
-* The project demonstrates that PCA provides a better separation of the normal and abnormal synthetic heartbeat data in the reduced space compared to t-SNE. The confusion matrix indicates that both methods perform similarly in terms of classification accuracy.
+The project demonstrates that PCA provides a better separation of the normal and abnormal synthetic heartbeat data in the reduced space compared to t-SNE. The confusion matrix indicates that both methods perform similarly in terms of classification accuracy.
 	- ** Example of synthetic data 
 	- ** Principal Components 
 	- ** Confusion Matrix
