@@ -1,6 +1,6 @@
 # Variational Autoencoder for Dimensionality Reduction on Synthetic Heartbeat Data
 
-*This simple project explores the use of a Variational Autoencoder (VAE) for dimensionality reduction, using synthetic "Heartbeat" data. The results are compared with Principal Component Analysis (PCA) and t-SNE, demonstrating the effectiveness of  both in separating the data.
+This simple project explores the use of a Variational Autoencoder (VAE) for dimensionality reduction, using synthetic "Heartbeat" data. The results are compared with Principal Component Analysis (PCA) and t-SNE, demonstrating the effectiveness of  both in separating the data.
 
 
 ## Why Use a Variational Autoencoder (VAE) Instead of a Traditional Autoencoder (AE)?
