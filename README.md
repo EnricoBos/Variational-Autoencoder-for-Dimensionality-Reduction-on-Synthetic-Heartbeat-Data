@@ -4,8 +4,8 @@ This simple project explores the use of a Variational Autoencoder (VAE) for dime
 
 
 ## Why Use a Variational Autoencoder (VAE) Instead of a Traditional Autoencoder (AE)?
-* A Variational Autoencoder (VAE) offers several advantages over a traditional Autoencoder (AE) when it comes to analyzing and interpreting the latent space:
- - ** Latent Space Representation: 
+A Variational Autoencoder (VAE) offers several advantages over a traditional Autoencoder (AE) when it comes to analyzing and interpreting the latent space:
+ -  Latent Space Representation: 
 Traditional AE: 
 	Maps input data to a fixed latent space. The latent variables are direct encodings of the data, and there are no constraints on their distribution. This can result in a latent space 	that may be 	irregular or sparse, making it harder to explore and interpret.
 VAE: 
