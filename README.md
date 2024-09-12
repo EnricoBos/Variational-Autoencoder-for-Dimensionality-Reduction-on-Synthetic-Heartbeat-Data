@@ -59,7 +59,7 @@ The main functionality of this project is contained within main.py. Here is a br
    - vae.fit(x_data_rescaled, x_data_rescaled, epochs=15, batch_size=128, validation_split=0.2)
 
 * Dimensionality Reduction:
-  - z_mean = vae.encode(x_data_rescaled)
+  - 'z_mean = vae.encode(x_data_rescaled)'
   - pca_result = PCA(n_components=2).fit_transform(z_mean)
   - tsne_result = TSNE(n_components=2).fit_transform(z_mean)
 
