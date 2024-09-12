@@ -55,8 +55,8 @@ The main functionality of this project is contained within main.py. Here is a br
 * Initialize the VAE: vae = Conv1DVAE(input_dim=128, latent_dim=100, conv_filters=[32, 64, 128])
 * Generate and Preprocess Synthetic Data
 * Train the VAE:
-	- vae.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=0.001))
-	- vae.fit(x_data_rescaled, x_data_rescaled, epochs=15, batch_size=128, validation_split=0.2)
+- vae.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=0.001))
+- vae.fit(x_data_rescaled, x_data_rescaled, epochs=15, batch_size=128, validation_split=0.2)
 
 * Dimensionality Reduction:
   - z_mean = vae.encode(x_data_rescaled)
